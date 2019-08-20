@@ -2,6 +2,9 @@
 
 namespace TagHelperDemo.TagHelpers
 {
+    /// <summary>
+    /// Prints out a string N number of times
+    /// </summary>
     public class PrinterTagHelper : TagHelper //Class must inherit from TagHelper
     {
         //Properties will become HTML attributes of your new tag helper
