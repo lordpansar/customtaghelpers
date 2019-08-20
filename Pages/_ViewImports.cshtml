@@ -1,3 +1,6 @@
 @using TagHelperDemo
 @namespace TagHelperDemo.Pages
+//Import the default tag helpers
 @addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+//Import all tag helpers in the TagHelpers folder
+@addTagHelper TagHelperDemo.TagHelpers.PrinterTagHelper, TagHelperDemo
